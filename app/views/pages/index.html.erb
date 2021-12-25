@@ -1,0 +1,27 @@
+<main class="l-main">
+            
+
+            <%= render 'pages/home'%>
+            <%= render 'pages/about'%>
+            <%= render 'pages/skills'%>
+            <%= render 'pages/work'%>
+            <%= render 'pages/contact'%>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Marlon</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <%= javascript_pack_tag 'main.js'%>
