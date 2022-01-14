@@ -3,12 +3,12 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
+                    <%= form_with url: contact_path, method: :post do %>
                         <input type="text" placeholder="Name" class="contact__input">
                         <input type="mail" placeholder="Email" class="contact__input">
                         <input type="mail" placeholder="Company or Instituition" class="contact__input">
                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
                         <button type="submit" class="contact__button button">Send to me</button>
-                    </form>
+                    <%end%>
                 </div>
             </section>
